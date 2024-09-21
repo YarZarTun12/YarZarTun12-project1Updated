@@ -1,0 +1,314 @@
+body {
+    margin:0 ;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+   
+figure{
+    margin: 0;
+    padding: 0;
+}
+main img{
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0 4px 8px rgba(32, 87, 50, 0.2);
+}
+
+main img:hover{
+    box-shadow: 0 8px 16px rgba(15, 94, 62, 0.719);
+    transform: scale(1.05);
+}
+/* header */
+
+header {
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background: linear-gradient(to bottom right, #36003259, #49dbaf42);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 0;
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid #ccc;
+    padding: 30px 20px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;/* Ensures the header is above other content */
+    z-index: 1000; 
+    height: 60px; 
+    animation: slide-down 1.5s ease-out;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+header figure {
+    margin: 0;
+    display: flex;
+}
+
+header figure img {
+    max-height: 50px; 
+    padding-right: 10px;
+    aspect-ratio: 2/1;
+    border-radius: 50%;
+}
+
+/* .logo-left {
+}
+
+.logo-right {
+} */
+
+
+/* main content */
+main *{
+    color: rgb(0, 0, 0);
+
+}
+main{
+
+    padding: 0 5%;
+    padding-top: 5%;
+    max-width: 100vw;
+    background-color: #c4ece0;
+}
+
+main .title{
+    text-align: center;
+}
+
+/* things to do in iceland */
+
+.img-section .first-sec,
+.img-section .second-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+
+.img-section .first-sec figure img,
+.img-section .second-sec figure img{ 
+  max-width: 600px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+/* contact information */
+
+.contact-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+}
+.contact-info {
+    margin-left: 20px;
+}
+.contact-info h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+}
+/* footer */
+
+
+/* Basic reset and font styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styling */
+footer {
+    background-color: #013a29; /* dark background for footer */
+    border-top: 1px solid #ddd;
+    padding: 0 5%;
+    color:white;
+}
+
+/* Upcoming Events */
+.upcoming-events {
+    margin-bottom: 20px;
+    color: wheat;
+    border-bottom: 2px solid gray;
+
+}
+
+.upcoming-events h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.upcoming-events ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.upcoming-events li {
+    margin-bottom: 8px;
+}
+
+.upcoming-events a {
+    text-decoration: none;
+    color: #007BFF; /* Blue color for links */
+}
+
+.upcoming-events a:hover {
+    text-decoration: underline;
+}
+
+/* New Feed Section */
+.new-feed-section {
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+
+}
+
+.new-feed-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.new-feed-section dl {
+    margin: 0;
+    padding: 0;
+}
+
+.new-feed-section dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.new-feed-section dd {
+    margin: 0 0 15px 0;
+    padding: 0 0 0 20px;
+    line-height: 1.6;
+}
+
+/* Cost of Iceland Trip */
+.cost-of-iceland-trip {
+    width: 100%;
+    color:darkblue;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+
+}
+
+.cost-of-iceland-trip h3 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.cost-of-iceland-trip table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cost-of-iceland-trip th, .cost-of-iceland-trip td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.cost-of-iceland-trip th {
+    background-color: #71ffdb;
+}
+.cost-of-iceland-trip td {
+    color: rgb(115, 215, 233);
+    background-color: rgb(61, 4, 42);
+    text-align: center;
+}
+
+
+.cost-of-iceland-trip tfoot th {
+    font-weight: bold;
+}
+
+.cost-of-iceland-trip tfoot td {
+    font-weight: bold;
+}
+
+/* Contact Us Section */
+.contact-container {
+    background: #fff; /* White background for contact section */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.contact-item a {
+    color: #3b061a; 
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+/* footer nav */
+
+
+
+footer nav{
+    background-color: #001322;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    
+}
+footer nav a:hover {
+    color: #12f3f3;
+}
+
+
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer nav a:hover{
+    color: #12f3f3;
+    padding:0 18px;
+    text-decoration: underline;
+}
+
+@keyframes slide-down {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
